@@ -141,7 +141,7 @@ int main() {
     Car* myManualCar = new ManualCar("Ford", "Mustang");
     myManualCar->startEngine();
     myManualCar->accelerate();
-    myManualCar->accelerate();
+    myManualCar->accelerate(10);
     myManualCar->brake();
     myManualCar->stopEngine();
 
@@ -150,7 +150,7 @@ int main() {
     Car* myElectricCar = new ElectricCar("Tesla", "Model S");
     myElectricCar->startEngine();
     myElectricCar->accelerate();
-    myElectricCar->accelerate();
+    myElectricCar->accelerate(20);
     myElectricCar->brake();
     myElectricCar->stopEngine();
 
